@@ -121,6 +121,7 @@ function generateNewBoard() {
     removeOldBoard();
     const newBoardSize = changeBoardSize();
     createPixelBoard(newBoardSize);
+    selectPixel();
   });
 }
 
