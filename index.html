@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Uma página web contendo uma paleta de cores funcional que pode ser utilizada para criar desenhos em pixels.">
     <link rel="stylesheet" href="style.css">
     <title>Projeto Pixels Art</title>
 </head>
@@ -17,7 +18,10 @@
     </div>
     <section id='toolbar'>
       <button id='clear-board'>Limpar</button>
-      <input type='number' min='1' id='board-size'>
+      <label for='board-size'>
+        Tam.:
+        <input type='number' min='1' id='board-size'>
+      </label>
       <button id='generate-board'>VQV</button>
     </section>
     <div id='pixel-board'></div>
